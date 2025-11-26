@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>X Project</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #111;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      color: #fff;
+    }
+
+    .logo-container {
+      position: relative;
+      display: inline-block;
+      margin-top: 30px;
+    }
+
+    .logo {
+      max-width: 200px;
+      height: auto;
+      display: block;
+    }
+
+    .social {
+      position: absolute;
+      top: 55%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      display: flex;
+      flex-direction: column; /* العمود العمودي */
+      gap: 10px; /* تقليل المسافة بينهم */
+      align-items: center;
+    }
+
+    .social a {
+      color: #fff;
+      font-size: 22px; /* تصغير الحجم شويه */
+      background: rgba(0,0,0,0.5); /* خلفية دائرية شفافة */
+      padding: 8px;
+      border-radius: 50%;
+      transition: transform 0.2s, opacity 0.2s;
+    }
+
+    .social a:hover {
+      transform: scale(1.2);
+      opacity: 0.8;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="logo-container">
+    <img src="qr x.jpg" alt="X Project Logo" class="logo">
+    <div class="social">
+      <a href="https://www.facebook.com/share/1CBf3y95U7/" target="_blank"><i class="fab fa-facebook"></i></a>
+      <a href="https://www.instagram.com/xprojectcu/" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.linkedin.com/company/xproject-eg/" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://x-project.co/X-Project/home.html" target="_blank"><i class="fas fa-globe"></i></a>
+    </div>
+  </div>
+
+</body>
+</html>
